@@ -1,0 +1,411 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: Open Sans;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    transition: all .2s;
+}
+.FirstSec{
+	height: 500px;
+}
+.header{
+    height: 150px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.Pingbuller{
+    font: 36px '';
+    width: 26%;
+    height: 50px;
+	margin-top: -5%;
+	margin-left: 5%;
+}
+.ping{
+    color:white;
+}
+.er{
+    color: #3f0027;
+}
+.menu{
+    list-style: none;
+    width: 70%;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+}
+.menuMaxSize480{
+	display: none;
+	list-style: none;
+}
+#link_menu{
+    text-decoration: none;
+    color: white;
+    font: 18px '';
+}
+.link_menu{
+    text-decoration: none;
+    color: white;
+    font: 18px '';
+    padding-top: 75px;
+}
+.link_menu:hover{
+    text-decoration: underline fuchsia;   
+}
+#link_menu:hover{
+    text-decoration: underline fuchsia; 
+}
+.home{
+	display: inline-block;
+	width: 50%;
+  	float: left;
+	padding: 2% 0 0 10%;
+	letter-spacing: -0.2px;
+}
+.midHome{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+#iPhone{
+	width: 20%;
+	margin-left: 5%;
+	margin-top: -3%;
+}
+.Lorem{
+    font-size: 40px;
+    color: white;
+}
+.it_will{
+    font-size: 24px;
+    color: #efbbfd;
+}
+.text_box{
+    color: white;
+}
+.middle_cl{
+    height: 300px;
+    background: linear-gradient(#755083, #2b2a38);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.middle {
+    width: 20%;
+    float: left;
+    padding: 20px;    
+    color: white;
+}
+.middle2{
+	display: none;
+}
+.far{
+	margin-left: -10%;
+}
+.link_about{
+    text-decoration: none;
+    color: white;
+    float: right;
+	margin-top: 10%;
+ 
+}
+.middle_2nd_cl{
+    height: 400px;
+    background: linear-gradient(#fbf7f8, #f8f8f8);
+    border-bottom: 1px solid #d8d8d8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.column_1st{
+    width: 44%;
+    background: linear-gradient(white, floralwhite);
+	margin-top: -5%;
+}
+.column_2nd{
+    width: 40%;
+}
+.text_col{
+	margin-top: 2%;
+	margin-left: 9%; 
+}
+.head_col{
+    font-size: 22px;
+    font-weight: bold;
+}
+.head_col2{
+    font-size: 22px;
+    color: #edc4fe;
+}
+.foto{
+    margin: -20px 0 0 -30px;
+    float: left;
+}
+.fotocl2{
+    float: left;
+    margin: 0 15px;
+}
+.nunc1{
+    padding: 2% 0;
+}
+.nunc{
+    font-weight: bold;
+    
+}
+.post{
+}
+#read{
+    text-decoration: none;
+    color: black;
+    float: right;
+    margin-top: 15px;
+}
+.imgs{
+    background: linear-gradient(#fbf7f8, #f8f8f8);
+    border-bottom: 1px solid #d8d8d8;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.overfooter{
+    background: #ececec;
+    height: 350px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.colon1{
+    width: 25%;       
+}
+.colon2{
+	display: none;
+}
+#ping{
+    font-weight: bold;
+    font-size: 36px;
+}
+#er{
+    color: #b9b9b9;
+    font-size: 36px;
+}
+#copyright{
+    color: #c9c9c9;
+	margin: 5% 0;
+}
+.lastcl{
+    font-size: 20px;
+    font-weight: bold;
+}
+.nunclast{
+    margin-top: 15px;
+}
+.footer{
+    height: 50px;
+    background: url(fon.jpg);
+}
+.footer_link{
+	width: 65%;
+	float: left;
+	margin: 1% 0 1% 2%;
+}
+.footer_link1{
+	text-decoration: none;
+    color: white;
+	font-weight: bolder;
+	font: 14px '';
+	margin-left: 2%;
+}
+#designed{
+	width: 30%;
+	float: right;
+	font: 18px '';
+	margin: 1% 2% 1% 0;
+	color: white;
+}
+#designedPing{
+	font-weight: bolder;
+}
+@media screen and (max-width: 768px){
+	.header{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;	
+	}
+	.Pingbuller{
+		width: 100%;
+		margin-top: 5%;	
+		margin-left: 5%;
+	}
+	.menu{
+		width: 90%;
+	}
+
+	.it_will{
+		font-size: 18px;
+	}
+	.middle{
+		display: none;
+	}
+	.middle2{
+		display: block;
+	    width: 20%;
+		float: left;
+		padding: 20px;    
+		color: white;
+	}
+	.column_1st{
+		width: 35%;
+	}
+	.colon1{
+		display: none;
+	}
+	.colon2{
+		display: block;
+		width: 25%;
+	}
+	.head_col{
+		font-size: 18px
+	}
+	.head_col2{
+		font-size: 18px
+	}
+	.footer{
+    height: 100px;
+	}
+	.footer_link{
+		width: 100%;
+	}
+	@media screen and (max-width: 480px){
+		.Pingbuller{
+			text-align: center;
+			font: 24px '';
+			width: 90%;
+		}
+		.FirstSec{
+			height: 350px;
+			text-align: center;
+		}
+		.link_menu{
+			display: none;
+		}
+		ul.menu > li:hover > ul.menuMaxSize480{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			border-radius: 10px;
+			background: #3f3246;
+		}
+		ul.menu{
+			display: block;
+			border-radius: 10px;
+			background: #3f3246;
+			text-decoration: none;
+			width: 50%;
+			height: 30%;
+			
+		}
+		.link_menu480{
+			color: white;
+			font: 18px '';
+			text-decoration: none;
+			
+		}
+		.link_menu480:hover{
+			text-decoration: underline fuchsia;
+		}
+		.text_box{
+			display: none;
+		}
+		.midHome{
+			padding-right: 5%;
+		}
+		.home{
+			margin: 0 auto;
+			width: 70%;
+		}
+		.Lorem{
+    		font-size: 25px;
+			text-align: left;
+		}
+		.it_will{		
+    		font: 12px '';
+			text-align: left;
+		}
+		#iPhone{
+			width: 20%;
+		}
+		.middle_cl{
+			display: flex;
+			flex-direction: column;
+			padding: 5%;
+		}
+		.middle2{
+			width: 100%;
+			padding: 0;
+		}
+		.link_about{
+			padding: 0;
+			margin: 0;
+		}
+		.far{
+			margin: 0;
+		}
+		.middle_2nd_cl{
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			margin: 2% 1%;
+			padding: 5%;
+		}
+		.column_1st{
+			width: 95%;
+			margin-top: 5%;
+		}
+		.column_2nd{
+		width: 95%;
+		}
+		.head_col{
+			padding: 2%
+		}
+		.imgs{
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: row;
+		}
+		.hz{
+			margin: 2% 7%;
+		}
+		.overfooter{
+			display: block;
+			height: 100%;
+			padding: 5% 5%;
+		}
+		.colon2{
+			width: 100%;
+			margin: 10% 0;
+		}
+		#designed{
+			width: 100%;
+			text-align: center;
+		}
+	}
+	@media screen and (max-width: 320px){
+		#iPhone{
+			display: none;
+		}
+		.head_col{
+			width: 100%;
+			margin-right: 13%;
+		}
+		.footer_link{
+			display: none;
+		}
+		#designed{
+			padding: 5% 0;
+		}
+	}
